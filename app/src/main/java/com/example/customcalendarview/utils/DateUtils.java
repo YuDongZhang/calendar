@@ -10,6 +10,8 @@ import java.util.Calendar;
 import java.util.Date;
 
 public class DateUtils {
+
+    public final static String TAG = "TXT";
     public static String getNextM(String input) {
         try {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM");
@@ -79,5 +81,7 @@ public class DateUtils {
 
         return calendar.get(Calendar.WEEK_OF_YEAR);
     }
+
+
 
 }
